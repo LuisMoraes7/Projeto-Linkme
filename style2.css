@@ -41,16 +41,23 @@ margin: auto;
 box-shadow: inset 0px -20px 20px rgb(0, 0, 0);
 }
 
-
 header > section{
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, 100%);
-text-align: center;
-color: rgb(0, 95, 5);
-text-shadow: 0px 0px 20px rgb(0, 0, 0);
-font-size: 1.3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    text-align: center;
+    color: white;
+    text-shadow: 4px 2px 7px rgb(0, 0, 0);
+    font-size: 1.3em;
+    }
+
+
+header > section > p{
+        font-size: 0.8em;
+        color: gray;
+        font-weight: bold;
+        text-shadow: 0px 1px 1px black;
 }
 
 section > h3, p{
@@ -71,7 +78,7 @@ margin-top: 20px;
 margin-left: 55px;
 }
 
-@media screen and (min-width: 860px){
+@media screen and (min-width: 800px){
     section#sinopse{
         background: rgb(24, 21, 20);
         border-radius: 10px;
@@ -94,22 +101,6 @@ margin-left: 55px;
             margin: auto;
             box-shadow: inset 0px -20px 20px rgb(0, 0, 0);
             }
-            header > section{
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, 100%);
-                text-align: center;
-                color: white;
-                text-shadow: 4px 2px 7px rgb(0, 0, 0);
-                font-size: 1.3em;
-                }
-            
 
-            header > section > p{
-                    font-size: 0.8em;
-                    color: gray;
-                    font-weight: bold;
-                    text-shadow: 2px 3px 1px black;
-            }
+
 }
