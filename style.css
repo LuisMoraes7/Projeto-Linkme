@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    @font-face {
+        font-family: 'Graphik';
+        src: url(fontes/GraphikCompact-Black-Trial.otf) format('opentype');
+        font-weight: light;
+    }
+
+    body{
+        background-color: rgb(0, 0, 0);
+        color: white;
+        line-height: 15px;
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+    }
+
+    ul img{
+        height: 40px;
+    }
+        
+    header{
+        background: black url(imagens/Palmeiras\ wallpaper.jpeg) center center no-repeat fixed;
+        background-size: contain;
+        height: 75vh;
+        width: 650px;
+        margin: auto;
+    }
+    
+    div.content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+
+    article img{
+        width: 600px;
+        height: 320px;
+        border-radius: 15px;
+    }
