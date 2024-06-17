@@ -1,0 +1,115 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+@font-face {
+font-family: 'Graphik';
+src: url(fontes/GraphikCompact-Black-Trial.otf) format('opentype');
+font-weight: light;
+}
+
+@font-face {
+font-family: 'Graphik-Light';
+src: url(fontes/GraphikCompact-Extralight-Trial.otf) format('opentyple');
+font-weight: normal;
+}
+
+body{
+background-color: rgb(0, 0, 0);
+color: white;
+line-height: 15px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+list-style: none;
+display: flex;
+}
+
+ul img{
+height: 40px;
+}
+
+header{
+background: black url(imagens/61ed1e9da8d1aa419858529f242745ab.jpg) center center no-repeat fixed;
+background-size: cover;
+height: 75vh;
+width: 100%;
+margin: auto;
+box-shadow: inset 0px -20px 20px rgb(0, 0, 0);
+}
+
+
+header > section{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, 100%);
+text-align: center;
+color: rgb(0, 95, 5);
+text-shadow: 0px 0px 20px rgb(0, 0, 0);
+font-size: 1.3em;
+}
+
+section > h3, p{
+margin-bottom: 5px;
+}
+
+section#sinopse{
+background: rgb(24, 21, 20);
+border-radius: 10px;
+text-align: center;
+padding: 10px;
+width: 70vw;
+font-family: 'Graphik-Light';
+font-size: 1em;
+font-weight: 500;
+margin-bottom: 10px;
+margin-top: 20px;
+margin-left: 55px;
+}
+
+@media screen and (min-width: 860px){
+    section#sinopse{
+        background: rgb(24, 21, 20);
+        border-radius: 10px;
+        text-align: center;
+        padding: 10px;
+        width: 45vw;
+        font-family: 'Graphik-Light';
+        font-size: 1em;
+        font-weight: 500;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        margin-left: 370px;
+        }
+
+        header{
+            background: black url(imagens/61ed1e9da8d1aa419858529f242745ab.jpg) center center no-repeat fixed;
+            background-size: contain;
+            height: 75vh;
+            width: 100%;
+            margin: auto;
+            box-shadow: inset 0px -20px 20px rgb(0, 0, 0);
+            }
+            header > section{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, 100%);
+                text-align: center;
+                color: white;
+                text-shadow: 4px 2px 7px rgb(0, 0, 0);
+                font-size: 1.3em;
+                }
+            
+
+            header > section > p{
+                    font-size: 0.8em;
+                    color: gray;
+                    font-weight: bold;
+                    text-shadow: 2px 3px 1px black;
+            }
+}
