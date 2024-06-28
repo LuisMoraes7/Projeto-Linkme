@@ -55,12 +55,22 @@ header > section{
 
 header > section > p{
     font-size: 0.8em;
-    color: gray;
+    color: rgb(208, 255, 201);
     font-weight: bold;
-    text-shadow: 0px 1px 1px black;
+    text-shadow: 0px 1px 10px black;
+}
+
+header > section > p:hover{
+    text-decoration: underline;
+}
+
+header > section > h3:hover{
+    text-decoration: underline;
 }
 
 .redes-sociais:hover{
+    display: block;
+    transform: translate(-5px, -5px);
     
 }
 
