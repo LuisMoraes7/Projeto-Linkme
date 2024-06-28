@@ -1,44 +1,44 @@
 *{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 @font-face {
-font-family: 'Graphik';
-src: url(fontes/GraphikCompact-Black-Trial.otf) format('opentype');
-font-weight: light;
+    font-family: 'Graphik';
+    src: url(fontes/GraphikCompact-Black-Trial.otf) format('opentype');
+    font-weight: light;
 }
 
 @font-face {
-font-family: 'Graphik-Light';
-src: url(fontes/GraphikCompact-Extralight-Trial.otf) format('opentyple');
-font-weight: normal;
+    font-family: 'Graphik-Light';
+    src: url(fontes/GraphikCompact-Extralight-Trial.otf) format('opentyple');
+    font-weight: normal;
 }
 
 body{
-background-color: rgb(0, 0, 0);
-color: white;
-line-height: 15px;
-font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    line-height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul{
-list-style: none;
-display: flex;
+    list-style: none;
+    display: flex;
 }
 
 ul img{
-height: 40px;
+    height: 40px;
 }
 
 header{
-background: black url(imagens/61ed1e9da8d1aa419858529f242745ab.jpg) center center no-repeat fixed;
-background-size: cover;
-height: 75vh;
-width: 100%;
-margin: auto;
-box-shadow: inset 0px -20px 20px rgb(0, 0, 0);
+    background: black url(imagens/61ed1e9da8d1aa419858529f242745ab.jpg) center center no-repeat fixed;
+    background-size: cover;
+    height: 75vh;
+    width: 100%;
+    margin: auto;
+    box-shadow: inset 0px -20px 20px rgb(0, 0, 0);
 }
 
 header > section{
@@ -54,28 +54,37 @@ header > section{
 
 
 header > section > p{
-        font-size: 0.8em;
-        color: gray;
-        font-weight: bold;
-        text-shadow: 0px 1px 1px black;
+    font-size: 0.8em;
+    color: gray;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px black;
+}
+
+.redes-sociais:hover{
+    
 }
 
 section > h3, p{
-margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 section#sinopse{
-background: rgb(24, 21, 20);
-border-radius: 10px;
-text-align: center;
-padding: 10px;
-width: 70vw;
-font-family: 'Graphik-Light';
-font-size: 1em;
-font-weight: 500;
-margin-bottom: 10px;
-margin-top: 20px;
-margin-left: 55px;
+    background: rgb(24, 21, 20);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    width: 70vw;
+    font-family: 'Graphik-Light';
+    font-size: 1em;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 55px;
+    }
+
+main {
+    margin-top: 40px;
+    text-align: justify;
 }
 
 @media screen and (min-width: 800px){
