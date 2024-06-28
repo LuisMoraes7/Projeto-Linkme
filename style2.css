@@ -71,6 +71,7 @@ header > section > h3:hover{
 .redes-sociais:hover{
     display: block;
     transform: translate(-5px, -5px);
+    transition: all 0.3s;
     
 }
 
